@@ -5,6 +5,10 @@ class MyController < ControllerBase
   def go
     render :show
   end
+
+  def index
+    render :index
+  end
 end
 
 app = Proc.new do |env|
